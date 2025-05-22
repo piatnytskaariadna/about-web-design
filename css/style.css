@@ -1,6 +1,5 @@
 body {
-  background-color: rgba(255, 208, 0, 0.836);
-  height: 100vh;
+  background-color: rgba(102, 141, 115, 0.836);
   display: flex;
   
   align-items: center;
@@ -8,18 +7,18 @@ body {
 }
 
 .container {
-  background-color: rgb(248, 166, 166);
+  background-color: rgb(196, 191, 191);
   width: 300px;
   height: 450px;
   overflow-y: scroll;
-  border: 9px solid #5a035a65;
+  border: 9px solid #035a4c65;
   border-radius: 15px;
-  box-shadow: 10px 10px 20px #550369f1;
+  box-shadow: 10px 10px 20px #416657f1;
   transition: all 2s ease;
 }
 
 .container:hover {
-  box-shadow: 15px 15px 25px #4c028a;
+  box-shadow: 15px 15px 25px #2a4e3d;
 }
 
 h2 {
@@ -50,8 +49,7 @@ h2 {
 body {
   font-family:arial;
   font-size: 18px;
-  background-color: #84b780;
-  height: 100hv;
+  background-color: #6f81a3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,36 +73,15 @@ section {
   height: 100vh;
   overflow: hidden;
 }
-
-.background-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-}
-
-.content {
-  position: relative;
-  z-index: 1;
-  color: #d8ffff;
-  text-align: center;
-  font-size: 120px;
-}
 .container {
-  background-color: rgb(248, 166, 166);
+  background-color: rgb(117, 155, 180);
   padding: 5px;
   width: 300px;
   height: 450px;
  overflow-y: scroll;
- border: 15px solid #ff00ff40;
+ border: 15px solid #476d74;
  border-radius: 15px;
- box-shadow: 10px 10px 20px #550369f1;
+ box-shadow: 10px 10px 20px #0d203b50;
  transition: all 2s ease;
 }
 .container:hover {
@@ -168,7 +145,36 @@ h2 {
       opacity: 1;
   }
 }
+
 .tag-description {
   display: none;
   text-align: left;
+}
+
+/*опис відео*/
+.welcome {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #d8ffff;
+  text-align: center;
+  font-size: 120px;
 }
