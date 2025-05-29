@@ -106,7 +106,7 @@ h2 {
   align-items: center;
   gap:15px;
   width:100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .tag-container {
@@ -177,4 +177,79 @@ h2 {
   color: #d8ffff;
   text-align: center;
   font-size: 120px;
+}
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px 20px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about,
+.footer-summary,
+.footer-contact {
+  flex: 1 1 300px;
+}
+
+.footer-about h3,
+.footer-summary h3,
+.footer-contact h3 {
+  color: #ffd700;
+}
+
+.footer-contact a {
+  color: #87cefa;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 0.9em;
+}
+
+.main-nav { position: fixed; top: 0;
+left: 0;
+width: 100vw;
+height: 60px;
+background: #29433496; color: #d8fff1;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 2px 12px #29433460; padding: 0 40px;
+backdrop-filter: blur(4px);
+}
+.nav-logo {
+font-size: 28px; font-weight: bold; letter-spacing: 2px; color: #84b780;}
+.nav-links {
+display: flex;
+gap: 32px;
+list-style: none; }
+.nav-links li a {
+color: #d8fff1;
+text-decoration: none;
+font-size: 18px;
+padding: 8px 12px;
+border-radius: 6px;
+transition: background 0.25, color 0.25;
+.nav-links li a:hover,
+.nav-links li a:focus
+background: #84b780; color: #294334;
 }

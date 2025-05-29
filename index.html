@@ -6,8 +6,18 @@
 </head>
 
 <body>
+  
+<nav class="main-nav">
+<div class="nav-logo">Вебдизайн</div>
+<ul class="nav-links">
+<li><a href="#welcome">Biтальне вiдео</a></li>
+<li><a href="#container">Texнологiï</a></li>
+<li><a href="#tags">Teги</a></li>
+<li><a href="#contacts">Kонтакти</a></li>
+</ul>
+</nav>
 
-  <section class="welcome">
+  <section class="welcome" id="welcome">
     <video autoplay muted loop playsinline class="background-video">
       <source src="video/intro.mp4" type="video/mp4" />
     </video>
@@ -15,7 +25,7 @@
   </section>
 
   <section>
-    <div class="container">
+    <div class="container" id="container">
       <div class="image_container">
         <img src="img/html-5.png" alt="HTML" />
       </div>
@@ -50,7 +60,7 @@
     </div>
   </section>
 
-  <section class="tags">
+  <section class="tags" id="tags">
     <h2>Теги</h2>
     <div class="tag-container">
       <div class="tag-title">html</div>
@@ -89,15 +99,17 @@
       <div class="tag-description">Посилання</div>
     </div>
   </section>
-</body>
-<body>
   <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-about">
       <h3>Про нас</h3>
       <p>Цей сайт створено для ознайомлення з основами веб-дизайну. Його авторка — П'ятницька Аріадна.</p>
     </div>
-    <div class="footer-contact">
+    <div class="footer-summary">
+      <h3>Узагальнення</h3>
+      <p>Сайт містить базову інформацію про принципи веб-дизайну, структуру веб-сторінок, стилі CSS і верстку. Він є навчальним прикладом для ознайомлення з HTML/CSS.</p>
+    </div>
+    <div class="footer-contact" id="contacts">
       <h3>Контакти</h3>
       <p>Email: <a href="mailto:24v_pad@liceum.ztu.edu.ua">24v_pad@liceum.ztu.edu.ua</a></p>
       <p>GitHub: <a href="https://github.com/piatnytskaariadna/about-web-design/settings/pages" target="_blank">Проєкт на GitHub</a></p>
@@ -107,6 +119,7 @@
     <p>&copy; 2025 Ariadna Piatnytska</p>
   </div>
 </footer>
+
 </body>
 
 </html>
